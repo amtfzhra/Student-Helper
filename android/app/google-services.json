@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "730556848854",
+    "project_id": "student-helper-app-wtvmhc",
+    "storage_bucket": "student-helper-app-wtvmhc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730556848854:android:f7723c21ce1a8e33800777",
+        "android_client_info": {
+          "package_name": "com.mycompany.studenthelperapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqZjj6BZNtRWcIwV2NEAtbUvCTYhDmIr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
