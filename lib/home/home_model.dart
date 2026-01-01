@@ -1,10 +1,10 @@
 import '/components/nav_bar_with_middle_button_widget.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
-import 'home_copy_widget.dart' show HomeCopyWidget;
+import 'home_widget.dart' show HomeWidget;
 import 'package:flutter/material.dart';
 
-class HomeCopyModel extends FlutterFlowModel<HomeCopyWidget> {
+class HomeModel extends FlutterFlowModel<HomeWidget> {
   ///  State fields for stateful widgets in this page.
 
   // Model for NavBarWithMiddleButton component.

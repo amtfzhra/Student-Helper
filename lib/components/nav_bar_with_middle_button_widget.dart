@@ -107,7 +107,7 @@ class _NavBarWithMiddleButtonWidgetState
                   size: 24.0,
                 ),
                 onPressed: () async {
-                  context.pushNamed(HomeCopyWidget.routeName);
+                  context.pushNamed(HomeWidget.routeName);
                 },
               ),
               FlutterFlowIconButton(

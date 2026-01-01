@@ -1,3 +1,4 @@
+import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
 import 'create_task_widget.dart' show CreateTaskWidget;
@@ -16,6 +17,8 @@ class CreateTaskModel extends FlutterFlowModel<CreateTaskWidget> {
   TextEditingController? descriptionTextController;
   String? Function(BuildContext, String?)? descriptionTextControllerValidator;
   DateTime? datePicked;
+  // Stores action output result for [Backend Call - Create Document] action in Button widget.
+  TasksRecord? newCreatedTask;
 
   @override
   void initState(BuildContext context) {}

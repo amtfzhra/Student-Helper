@@ -739,23 +739,6 @@ class _SignUpWidgetState extends State<SignUpWidget>
                                                         onPressed: () async {
                                                           GoRouter.of(context)
                                                               .prepareAuthEvent();
-                                                          if (_model
-                                                                  .passwordCreateTextController
-                                                                  .text !=
-                                                              _model
-                                                                  .passwordTextController
-                                                                  .text) {
-                                                            ScaffoldMessenger
-                                                                    .of(context)
-                                                                .showSnackBar(
-                                                              SnackBar(
-                                                                content: Text(
-                                                                  'Passwords don\'t match!',
-                                                                ),
-                                                              ),
-                                                            );
-                                                            return;
-                                                          }
 
                                                           final user =
                                                               await authManager
@@ -1320,7 +1303,7 @@ class _SignUpWidgetState extends State<SignUpWidget>
                                                           }
 
                                                           context.pushNamedAuth(
-                                                              HomeCopyWidget
+                                                              HomeWidget
                                                                   .routeName,
                                                               context.mounted);
                                                         },

@@ -63,7 +63,7 @@ class _TimerWidgetState extends State<TimerWidget> {
               size: 30.0,
             ),
             onPressed: () async {
-              context.pushNamed(HomeCopyWidget.routeName);
+              context.pushNamed(HomeWidget.routeName);
             },
           ),
           title: Text(

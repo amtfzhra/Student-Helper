@@ -1,3 +1,4 @@
+import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
 import 'tasks_widget.dart' show TasksWidget;
@@ -14,19 +15,9 @@ class TasksModel extends FlutterFlowModel<TasksWidget> {
       tabBarController != null ? tabBarController!.previousIndex : 0;
 
   // State field(s) for Checkbox widget.
-  bool? checkboxValue1;
-  // State field(s) for Checkbox widget.
-  bool? checkboxValue2;
-  // State field(s) for Checkbox widget.
-  bool? checkboxValue3;
-  // State field(s) for Checkbox widget.
-  bool? checkboxValue4;
-  // State field(s) for Checkbox widget.
-  bool? checkboxValue5;
-  // State field(s) for TextField widget.
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  Map<TasksRecord, bool> checkboxValueMap = {};
+  List<TasksRecord> get checkboxCheckedItems =>
+      checkboxValueMap.entries.where((e) => e.value).map((e) => e.key).toList();
 
   @override
   void initState(BuildContext context) {}
@@ -34,7 +25,5 @@ class TasksModel extends FlutterFlowModel<TasksWidget> {
   @override
   void dispose() {
     tabBarController?.dispose();
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
   }
 }

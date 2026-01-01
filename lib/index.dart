@@ -8,4 +8,4 @@ export '/profile/profile_widget.dart' show ProfileWidget;
 export '/forgot_password/forgot_password_widget.dart' show ForgotPasswordWidget;
 export '/welcome/welcome_widget.dart' show WelcomeWidget;
 export '/tasks/tasks_widget.dart' show TasksWidget;
-export '/home_copy/home_copy_widget.dart' show HomeCopyWidget;
+export '/home/home_widget.dart' show HomeWidget;
